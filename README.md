@@ -68,6 +68,11 @@ dsh plugin --profile desktop add dsh-session-md-export
 
 设计取舍（为什么没有 frontmatter、为什么不给工具摘要、为什么不做 full 档）见 [docs/design.md](docs/design.md)。
 
+## 两条提醒
+
+- **issue 里请勿附带真实会话的导出文件或日志**，复现问题用合成数据即可。
+- **导出的 Markdown 忠实保留你在会话里输入过的全部内容**（可能含密钥、内部信息），对外分享前请自查。
+
 ## 兼容性
 
 - 需要 DSH `>=0.2.1-rc.3 <0.3.0`。

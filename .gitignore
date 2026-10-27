@@ -1,3 +1,7 @@
 node_modules/
 .DS_Store
 *.log
+
+# 真实会话数据与 /export 产物，勿入库
+session-*.jsonl
+*.zip
