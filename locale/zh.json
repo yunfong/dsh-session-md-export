@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "会话导出为 Markdown",
+    "description": "一键把当前会话导出成可读的 Markdown 文件，只保留用户与助手的对话正文。"
+  }
+}

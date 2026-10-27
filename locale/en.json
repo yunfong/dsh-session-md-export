@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Session to Markdown",
+    "description": "Export the current session as a readable Markdown file containing only the dialogue."
+  }
+}

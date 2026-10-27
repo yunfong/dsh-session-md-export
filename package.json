@@ -1,0 +1,56 @@
+{
+  "name": "dsh-session-md-export",
+  "version": "0.1.0",
+  "description": "Export a DeepSeek Harness session as a readable Markdown file, dialogue only.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "markdown",
+    "export",
+    "session"
+  ],
+  "author": "yunfong",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yunfong/dsh-session-md-export.git"
+  },
+  "homepage": "https://github.com/yunfong/dsh-session-md-export#readme",
+  "bugs": {
+    "url": "https://github.com/yunfong/dsh-session-md-export/issues"
+  },
+  "engines": {
+    "dsh": ">=0.2.1-rc.3 <0.3.0-0"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "render.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "scripts": {
+    "test": "node test/host.test.mjs"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  }
+}
