@@ -6,6 +6,7 @@
 
 [![npm](https://img.shields.io/npm/v/dsh-session-md-export)](https://www.npmjs.com/package/dsh-session-md-export)
 [![license](https://img.shields.io/npm/l/dsh-session-md-export)](./LICENSE)
+[![开放插件市场](https://img.shields.io/endpoint?url=https%3A%2F%2Fdshopen.org%2Fbadge%2Fdsh-session-md-export.json)](https://dshopen.org/zh/plugins/dsh-session-md-export/)
 
 ## 它解决什么
 
